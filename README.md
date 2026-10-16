@@ -48,6 +48,7 @@ flowchart LR
     E --> F
     F --> G[🔎 Detection & Analysis]
 ```
+<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/faf49ab8-136a-4f63-98a3-5af46d6c6b58" />
 
 The VM is monitored two ways: **Defender for Endpoint** watches the machine itself (logons, processes, files, network), and a **Data Collection Rule** ships the MySQL log into **Log Analytics** so I can see what happens inside the database.
 
